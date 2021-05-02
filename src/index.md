@@ -6,13 +6,13 @@ subHeader: "dev portfolio"
 
 <article class="project blue">
 
-## Resume
+## Resume Site
 
-[![Screenshot of resume website](/images/resume.png)](https://resume.dcgoodwin.dev)
+<a href="https://resume.dcgoodwin.dev"><img src="/images/resume.jpg" alt="Screenshot of resume website" width="818" height="530"></a>
 
-Personal resume site built with NextJS
+Personal resume site built with Next.js
 
-Built with: NextJS, Typescript, Styled Components
+Built with: Next.js, Typescript, Styled Components
 
 [https://resume.dcgoodwin.dev](https://resume.dcgoodwin.dev)
 
@@ -22,7 +22,7 @@ Built with: NextJS, Typescript, Styled Components
 
 ## Component Library
 
-[![Screenshot Storybook component library site](/images/storybook.png)](https://stories.dcgoodwin.dev)
+<a href="https://stories.dcgoodwin.dev"><img src="/images/storybook.jpg" alt="Screenshot Storybook component library site" width="818" height="530"></a>
 
 Example component library using Storybook
 
@@ -36,7 +36,7 @@ Built with: Storybook, React, Typescript, Styled Components, React Testing Libra
 
 ## Gatsby + Drupal
 
-[![Screenshot of Meetup group event page. Gatsby + Drupal](/images/drupal-gatsby.png)](https://www.meetup.com/TriDUG/events/twctrlyzpblc/)
+<a href="https://www.meetup.com/TriDUG/events/twctrlyzpblc/"><img src="/images/drupal-gatsby.jpg" alt="Screenshot of Meetup group event page. Gatsby + Drupal" width="818" height="530"></a>
 
 Created a decoupled site with Drupal and Gatsby and gave a presentation/demo at the Triangle Drupal Users Group Meetup
 

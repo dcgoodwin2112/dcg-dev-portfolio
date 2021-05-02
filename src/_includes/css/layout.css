@@ -1,15 +1,17 @@
 .grid {
+  margin: 0 auto;
+  max-width: 1920px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1124px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .grid {
     display: flex;
     flex-direction: column;

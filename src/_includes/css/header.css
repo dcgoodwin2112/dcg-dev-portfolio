@@ -1,6 +1,9 @@
 .site-header {
   background-color: var(--mostly-white);
   border-bottom: 4px solid var(--mostly-black);
+  max-width: 1924px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .site-header h1 {
