@@ -34,7 +34,7 @@ Built with: Storybook, React, Typescript, Styled Components, React Testing Libra
 
 <article class="project purple">
 
-## Gatsby + Drupal
+## Talk: Gatsby + Drupal
 
 <a href="https://www.meetup.com/TriDUG/events/twctrlyzpblc/"><img src="/images/drupal-gatsby.jpg" alt="Screenshot of Meetup group event page. Gatsby + Drupal" width="818" height="530"></a>
 
@@ -42,6 +42,6 @@ Created a decoupled site with Drupal and Gatsby and gave a presentation/demo at 
 
 Built with: Drupal, Gatsby
 
-[Meetup Event Page](https://www.meetup.com/TriDUG/events/twctrlyzpblc/)
+[Event Page](https://www.meetup.com/TriDUG/events/twctrlyzpblc/) | [Client Repo](https://github.com/dcgoodwin2112/drupal-gatsby-demo) | [Server Repo](https://github.com/dcgoodwin2112/drupal-gatsby-demo-server)
 
 </article>
