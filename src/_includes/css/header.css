@@ -1,0 +1,21 @@
+.site-header {
+  background-color: var(--mostly-white);
+  border-bottom: 4px solid var(--mostly-black);
+}
+
+.site-header h1 {
+  font-family: var(--sans-serif);
+  letter-spacing: 0.09rem;
+  line-height: 1.4rem;
+  color: var(--dark-gray);
+  padding: 18px 36px;
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
+}
+
+.sub-header {
+  font-weight: 300;
+  font-size: 1.1rem;
+  letter-spacing: 0.34rem;
+}

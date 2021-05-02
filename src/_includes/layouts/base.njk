@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="{{ metadata.language or "en"}}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title or metadata.title }}</title>
+    <meta name="description" content="{{ description or metadata.description }}">
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:site" content="{{ twitterSite or metadata.author.twitter }}"/>
+    <meta name="twitter:title" content="{{ title or metadata.title }}"/>
+    <meta name="twitter:description" content="{{ description or metadata.description }}"/>
+    <meta name="twitter:image" content="{{ ogImage or metadata.ogImage }}" />
+    <meta name="twitter:image:alt" content="{{ title or metadata.title }}"/>
+    <meta property="og:image" content="{{ ogImage or metadata.ogImage }}"/>
+    <meta property="og:title" content="{{ title or metadata.title }}"/>
+    <meta property="og:description" content="{{ description or metadata.description }}"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="627"/>
+    {% set css %}
+    {% include "css/reset.css" %}
+    {% include "css/colors.css" %}
+    {% include "css/layout.css" %}
+    {% include "css/header.css" %}
+    {% include "css/footer.css" %}
+    {% include "css/styles.css" %}
+    {% endset %}
+    <style>
+      {{css | cssmin | safe}}</style>
+  </head>
+  <body>
+    <header class="site-header">
+      {% if header %}
+        <h1>{{ header }}
+          {% if subHeader %}
+            <br><span class="sub-header">{{ subHeader }}</span>
+          {% endif %}
+        </h1>
+      {% endif %}
+    </header>
+    <main>
+      <div class="grid">
+        {{ content | safe }}
+      </div>
+    </main>
+    <footer class="site-footer">
+      {% include "social.njk" %}
+      <p>Crafted with
+        <a href="https://www.11ty.dev/">Eleventy</a>
+      </p>
+    </footer>
+  </body>
+</html>
