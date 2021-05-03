@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ metadata.language or "en"}}">
+<html lang="{{ metadata.language or "en" }}">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,7 @@
     <meta name="twitter:site" content="{{ twitterSite or metadata.author.twitter }}"/>
     <meta name="twitter:title" content="{{ title or metadata.title }}"/>
     <meta name="twitter:description" content="{{ description or metadata.description }}"/>
-    <meta name="twitter:image" content="{{ ogImage or metadata.ogImage }}" />
+    <meta name="twitter:image" content="{{ ogImage or metadata.ogImage }}"/>
     <meta name="twitter:image:alt" content="{{ title or metadata.title }}"/>
     <meta property="og:image" content="{{ ogImage or metadata.ogImage }}"/>
     <meta property="og:title" content="{{ title or metadata.title }}"/>
@@ -46,6 +46,9 @@
       {% include "social.njk" %}
       <p>Crafted with
         <a href="https://www.11ty.dev/">Eleventy</a>
+      </p>
+      <p>
+        <a href="https://github.com/dcgoodwin2112/dcg-dev-portfolio">View on GitHub</a>
       </p>
     </footer>
   </body>
