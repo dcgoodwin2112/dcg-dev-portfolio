@@ -38,7 +38,7 @@ Built with: Storybook, React, Typescript, Styled Components, React Testing Libra
 
 <a href="https://www.meetup.com/TriDUG/events/twctrlyzpblc/"><img src="/images/drupal-gatsby.jpg" alt="Screenshot of Meetup group event page. Gatsby + Drupal" width="818" height="530"></a>
 
-I created a decoupled site with Drupal and Gatsby and gave a presentation/demo at the Triangle Drupal Users Group Meetup
+Talk and demo given at the Triangle Drupal Users Group Meetup on decoupled Drupal with Gatsby
 
 Built with: Drupal, Gatsby
 
