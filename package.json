@@ -17,6 +17,7 @@
     "@11ty/eleventy": "^0.12.1"
   },
   "dependencies": {
-    "clean-css": "^5.1.2"
+    "clean-css": "^5.1.2",
+    "date-fns": "^2.22.1"
   }
 }
