@@ -32,7 +32,7 @@ Next, I plan on researching individual companies and job postings. These will be
 
 The final step in this section is to reduce my list down to a few core technologies to focus on for the next phase of this project. This honestly may be the most difficult part of the process for me. I'm a generalist at heart and diving into new tools and technologies is something I greatly enjoy.  Too much generalization makes mastering a skill nearly impossible though, so it's a necessary task. At the end of this step, I should have a short list of skills that both interest me personally and are highly marketable.
 
-### Part II: Becoming a Specialized Generalist
+### <a name="part2"></a>Part II: Becoming a Specialized Generalist
 
 Part two will be a chance for me to really dive deep into the skills selected in the previous step. For each technology on my list, I will evaluate what resources are available for learning that skill (Courses, tutorials, docs, etc) and choose which ones to focus on.
 
@@ -47,7 +47,7 @@ The amount of time spent learning each item will vary depending on the complexit
 
 The last item I want to look at in this section is professional certifications. This won't be applicable to all skills, but if there is a credible certification for a skill that is near my current level, then I will likely attempt the certification test.
 
-<h3 id="part2">Part III: Back Into the Fray</h3>
+### Part III: Back Into the Fray
 
 Part three is all about the taking the skills gained throughout this project and re-entering the job market. This will include general interview prep such as algorithm exercises and practicing common non-technical questions. There will also be elements that target specific positions such as cover letters, targeted resumes, code samples, etc.
 
