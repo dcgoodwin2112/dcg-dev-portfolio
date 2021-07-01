@@ -1,0 +1,18 @@
+.menu {
+
+}
+
+.menu ol {
+  list-style-type: none;
+  display: flex;
+}
+
+.menu li {
+  padding-inline: 8px;
+}
+
+.menu a {
+  color: var(--mostly-black);
+  font-size: 1.05rem;
+  letter-spacing: .04rem;
+}

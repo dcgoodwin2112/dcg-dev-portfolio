@@ -5,6 +5,15 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
+.wrapper {
+  background-color: var(--mostly-white);
+  max-width: 876px;
+  margin: 24px auto;
+  padding-inline: 56px;
+  padding-block: 24px;
+  border-radius: 5px;
+}
+
 @media screen and (max-width: 1124px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
@@ -14,6 +23,14 @@
 @media screen and (max-width: 768px) {
   .grid {
     display: flex;
+    flex-direction: column;
+  }
+
+  .wrapper {
+    padding-inline: 24px
+  }
+
+  .menu ol {
     flex-direction: column;
   }
 }
