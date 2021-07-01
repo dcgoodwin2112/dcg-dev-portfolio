@@ -1,0 +1,5 @@
+{
+  "layout": "layouts/post.njk",
+  "description": "A Coding Career Reset. This blog series documents my career shift from legacy systems to modern JavaScript frameworks.",
+  "ogImage": "https://dcgoodwin.dev/images/dan-goodwin-web-apps-dev-og.jpg"
+}

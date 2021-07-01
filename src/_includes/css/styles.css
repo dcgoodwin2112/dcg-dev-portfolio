@@ -7,22 +7,51 @@
 html,
 body {
   font-size: 18px;
+  line-height: 32px;
   font-family: var(--sans-serif);
   background-color: var(--mostly-black);
+  color: var(--dark-gray);
   min-height: (100vh);
   display: flex;
   flex-direction: column;
 }
 
-h1,
-h2,
-h3 {
+h1 {
+  color: var(--purple);
+  font-family: var(--sans-serif);
+  font-weight: 600;
+  letter-spacing: .12rem;
+  font-size: 2.2rem;
+  line-height: 3rem;;
+  padding-block: 22px;
+}
+
+h2 {
   font-family: var(--serif);
+  color: var(--mostly-black);
+  font-weight: 200;
+  font-size: 1.5rem;
+  letter-spacing: .2rem;
+  padding-block-start: 32px;
+}
+
+h2::first-letter {
+  font-size: 1.6rem;;
+}
+
+h3 {
+  color: var(--mostly-black);
+  font-size: 1.1rem;
   font-weight: 500;
+  padding-block-start: 24px;
+}
+
+h3::first-letter {
+  font-size: 1.2rem;
 }
 
 a {
-  color: white;
+  color: var(--purple);
   text-decoration: underline;
 }
 
@@ -31,8 +60,22 @@ a:hover {
 }
 
 p {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-block: 12px;
+}
+
+ol,
+ul {
+  margin-block: 4px;
+  font-size: .9rem;
+  color: var(--gray-600);
+}
+
+li {
+  padding-block: 6px;
+}
+
+.project h2 {
+  color: white;
 }
 
 .project img {
@@ -81,4 +124,36 @@ p {
 
 .red {
   background-color: var(--red);
+}
+
+.grid a {
+  color: white;
+}
+
+.tldr h2,
+.tldr h2::first-letter {
+  font-family: var(--serif);
+  color: var(--mostly-black);
+  font-style: italic;
+  font-size: .9rem;
+}
+
+.tldr p {
+  border: 1px solid var(--purple);
+  background-color: var(--light-purple);
+  padding-inline: 22px;
+  border-radius: 5px;
+}
+
+.series {
+  color: var(--gray-600);
+  font-family: var(--serif);
+  font-size: .9rem;
+}
+
+.post-date {
+  padding-block-start: 8px;
+  font-size: .8rem;
+  letter-spacing: .1rem;
+  font-style: italic;
 }

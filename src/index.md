@@ -1,5 +1,5 @@
 ---
-layout: "layouts/base.njk"
+layout: "layouts/portfolio.njk"
 header: "Dan Goodwin"
 subHeader: "dev portfolio"
 ---

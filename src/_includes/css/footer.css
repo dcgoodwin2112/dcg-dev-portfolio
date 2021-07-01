@@ -1,8 +1,8 @@
-.footer {
+/* .footer {
   display: flex;
   justify-items: center;
   height: 100%;
-}
+} */
 
 .site-footer {
   padding-top: auto;
@@ -13,6 +13,9 @@
   align-items: center;
 }
 
+.site-footer a {
+  color: white;
+}
 .social-links {
   margin-top: 24px;
   display: flex;
